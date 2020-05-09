@@ -4,7 +4,7 @@
 # Container bootstrap script.
 #
 # @file     bootstrap.sh
-# @author   Mustafa Kemal GILOR <mgilor@nettsi.com>
+# @author   Mustafa Kemal GILOR <mustafagilor@gmail.com>
 # @date     10.05.2020
 # 
 # All rights reserved. Licensed under the MIT license. 
