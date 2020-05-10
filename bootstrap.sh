@@ -37,7 +37,7 @@ apt_package_list=(
     # Install GNU GCC Toolchain, version 10
     gcc-10 g++-10 gdb libstdc++-10-dev libc6-dev
     # Install LLVM Toolchain, version 10
-    llvm-10 lldb-10 clang-10 clangd libc++-10-dev
+    llvm-10 lldb-10 clang-10 clangd-10 libc++-10-dev
     # Install build generator & dependency resolution and build accelarator tools
     make ninja-build autoconf automake libtool m4 cmake ccache
     # Install python & pip
@@ -51,7 +51,7 @@ apt_package_list=(
     # Install code coverage
     lcov gcovr
     # Documentation & graphing
-    doxygen doxygen-doc doxygen-latex doxygen-doxyparse graphviz
+    doxygen doxygen-latex doxygen-doxyparse graphviz
     # User-specified packages
     ${apt_extra_package_list[@]}
 )
